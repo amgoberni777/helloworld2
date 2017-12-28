@@ -30,16 +30,14 @@ html {
 
 <script>
 
-
 var sites = ["CMB", "Stick Co", "Stick Tattoo", "Katko","Accelerated", "LMR"];
 var text = "";
 var i;
-for (i = 0; i < sites.length; i++) {
-text += sites[i] + "<br>";
+for (i = 0;i < sites.length; i++){
+    text += sites[i] + "</br>";
 }
+document.getElementById("demo").innerHTML = text;
 
-
-document.getElementbyId("demo").innerHTML = text;
 
 
 </script>
